@@ -1,0 +1,10 @@
+@inproceedings{kang2014rappd,
+	author={Yuan Kang and Allan Schiffman and Jeff Shrager},
+	booktitle={Security and Privacy Workshops (SPW), 2014 IEEE},
+	title={RAPPD: A Language and Prototype for Recipient-Accountable Private Personal Data},
+	year={2014},
+	pages={49-56},
+	keywords={data privacy;electronic mail;hypermedia markup languages;HTML;JavaScript;email reader;private data communication;recipient-accountable private personal data;Data privacy;Electronic mail;IP networks;Law;Medical services;Privacy;Prototypes;accountability;auditing;creative commons;email privacy;privacy;trust;usability;usable privacy},
+	doi={10.1109/SPW.2014.16},
+	month={May}
+}

@@ -95,8 +95,8 @@ class Page:
 		head = HTMLElement("head", children = [title])
 		header = HTMLElement("h1", children = [self.text_header])
 		navbar = self.generate_navbar(all_pages)
-		body = HTMLElement("body", children = [header, navbar, \
-						       self.body_text, "<hr>"])
+		body = HTMLElement("body", children = [header, navbar, "<hr>", \
+						       self.body_text])
 		root = HTMLElement("html", children = [head, body])
 
 		page_file = open(self.get_path(), "w")
