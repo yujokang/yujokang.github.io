@@ -7,6 +7,14 @@ including software and system security, as well as cryptography.
 <h2>Papers</h2>
 <ul>
 	<li>
+		<a href="papers/apex_2016.pdf" target="_blank">
+			"APEx: Automated Inference of Error Specifications for C APIs"
+		</a>.
+		<p>by <b>Yuan Kang</b>, Baishakhi Ray, Suman Jana,
+		in the <a href="http://ase2016.org/program.html" target="_blank">International Conference on Automated Software Engineering, 2016</a>.
+		<p><a href="papers/apex_2016.txt" target="_blank">bibtex</a>
+	</li>
+	<li>
 		<a href="papers/epex_2016.pdf" target="_blank">
 			"Automatically Detecting Error Handling Bugs
 			using Error Specifications"

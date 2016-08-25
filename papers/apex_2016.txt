@@ -1,0 +1,8 @@
+@inproceedings{kang2016apex,
+	author = {Yuan Kang and Baishakhi Ray and Suman Jana},
+	title = {{APEx: Automated Inference of Error Specifications for C APIs}},
+	booktitle = {31st IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+	address = {Singapore},
+	month = {September},
+	year = 2016
+}
