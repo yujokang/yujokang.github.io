@@ -1,6 +1,7 @@
 from os import sep, listdir
 from sys import argv
 
+ENCODING = "UTF-8"
 HTML_EXTENSION = ".html"
 SOURCE_EXTENSION = ".src"
 
@@ -91,8 +92,11 @@ class Page:
 			navbar_row.add(page.generate_navbar_tab(self))
 		return navbar_table
 	def generate(self, all_pages):
+		charset_attribute = ("charset", ENCODING)
+		charset = HTMLElement("meta",
+				      attribute_pairs = [charset_attribute])
 		title = HTMLElement("title", children = [self.page_title])
-		head = HTMLElement("head", children = [title])
+		head = HTMLElement("head", children = [charset, title])
 		header = HTMLElement("h1", children = [self.text_header])
 		navbar = self.generate_navbar(all_pages)
 		body = HTMLElement("body", children = [header, navbar, "<hr>", \
